@@ -1,0 +1,110 @@
+.msg > * >* {
+    border: 1px solid white !important;
+    background-color: #d00000;
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 15px;
+    margin-bottom: 1rem;
+    border-radius: 20px;
+    color: white
+}
+
+.cs-message--outgoing .cs-message__content {
+    background-color: white;
+    border-radius: 20px;
+    border: 1px solid #d00000 !important;
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 15px;
+    margin-bottom: 1rem;
+    margin-left: 100px;
+    color: #d00000
+}
+
+.cs-message-input__tools:first-child .cs-button:last-child {
+    display: none;
+}
+
+.cs-message-input__content-editor-wrapper{
+    margin-left: 1rem;
+    margin-top: 0.3rem;
+    margin-bottom: 0.3rem;
+    display: flex;
+    align-items: center;
+}
+
+.cs-chat-container .cs-message-input{
+    background-color: transparent;
+    border-top: 0.1rem solid white;
+}
+
+.cs-main-container{
+    border: 0.1rem solid red;
+    padding-top: 10px;
+    border-radius: 1rem;
+}
+
+.cs-message-input__tools:last-child .cs-button:last-child {
+    margin-right: 0;
+    align-self: center;
+}
+
+
+.cs-button {
+    color: #000000;
+    opacity: 100%;
+}
+
+.scrollbar-container {
+    position: relative;
+    height: 100%;
+    width: 100%;
+}
+
+.cs-message-input__content-editor-wrapper {
+    box-sizing: border-box;
+    position: relative;
+    background-color: white;
+    margin: 0;
+    padding: .6em .9em;
+    border-radius: .7em;
+    flex-grow: 1;
+    margin-left: 1.2rem;
+}
+
+.cs-message-input__content-editor {
+    box-sizing: border-box;
+    flex-grow: 1;
+    background-color: white;
+    font-family: 'JetBrains Mono', monospace;
+    outline: 0;
+    border-top: 0 none;
+    border-right: 0 none;
+    border-bottom: 0 none;
+    border-left: 0 none;
+    overflow: visible;
+    color: rgba(0,0,0,.87);
+    overflow-wrap: anywhere;
+    word-break: break-word;
+}
+
+.ps .ps__rail-x:hover, .ps .ps__rail-y:hover, .ps .ps__rail-x:focus, .ps .ps__rail-y:focus, .ps .ps__rail-x.ps--clicking, .ps .ps__rail-y.ps--clicking {
+    background-color: #eee;
+    background-color: #c38bfb;
+    opacity: .9;
+}
+
+.cs-typing-indicator{
+    background-color: black !important;
+    width: 100%;
+}
+
+.cs-typing-indicator__text{
+    color: wheat !important
+}
+
+.cs-typing-indicator__indicator > * {
+    background: wheat !important;
+}
+
+.cs-button--send{
+    color: white;
+}

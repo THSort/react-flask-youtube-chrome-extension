@@ -1,0 +1,23 @@
+{
+  "manifest_version": 3,
+  "name": "YouTube Question Bot",
+  "description": "Ask any question related to the video you are watching!",
+  "version": "1.0.0",
+  "permissions": [
+    "scripting", "activeTab", "tabs"
+  ],
+  "background": {
+    "persistent": false,
+    "scripts": ["background.js"]
+  },
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["content-script.js"]
+    }
+  ],
+  "action": {
+    "default_title": "YouTube Question Bot",
+    "default_popup": "index.html"
+  }
+}
